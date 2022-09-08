@@ -12,3 +12,24 @@ Discord - _Zhansaule Telisheva_ (@zhansaulet)
 - Git
 - SCSS
 - BEM
+
+## Code example:
+
+```
+function squareDigits(num){
+  let strNum = num.toString();
+  let resNum = [];
+
+  for(let i = 0; i < strNum.length; i++){
+  let temp = Number(strNum[i])\*\*2;
+  resNum[i] = temp.toString();
+  }
+
+  return Number(resNum.join(""));
+}
+```
+
+## Work experience:
+
+**I have not started working as a frontend developer yet. So, here is my course project:**
+[My Course Project](https://zhansaulet.github.io/tour-plan/)
