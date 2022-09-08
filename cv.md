@@ -33,3 +33,16 @@ function squareDigits(num){
 
 **I have not started working as a frontend developer yet. So, here is my course project:**
 [My Course Project](https://zhansaulet.github.io/tour-plan/)
+
+## Education:
+
+**Nazarbayev University, Nur-Sultan, 2015-2020**
+_Bachelor in Robotics and Mechatronics_
+
+**Glo Academy, 2021-2022**
+_Frontend Course_
+
+## Languages:
+
+**English level - _Upper-Intermediate_**
+_I can clearly express my thoughts in English and communicate with English-speaking people fluently. I can read books, watch videos, and write in English at a good level. I also teach English to other people._
