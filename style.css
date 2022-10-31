@@ -159,11 +159,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-#incomplete-tasks .edit-mode input[type="text"] {
+ul .edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-#incomplete-tasks .edit-mode label {
+ul .edit-mode label {
   display: none;
 }
