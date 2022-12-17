@@ -58,6 +58,37 @@
     max-width: 730px
   .menu
     display: none
+    width: 100%
+    position: fixed
+    left: 0
+    right: 0
+    bottom: 0
+    top: 78px
+    padding-top: 30px
+    background-color: #fff
+    &__list
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      padding-left: 0
+    &__item
+      margin-bottom: 20px
+    &--visible
+      display: block
+  .menu-btn
+    display: flex
+    width: 20px
+    height: 15px
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    border: none
+    background-color: #fff
+    cursor: pointer
+    &__line
+      width: 20px
+      height: 1px
+      background-color: #0096FF
   .projects
     &__image
       width: 220px
@@ -123,8 +154,8 @@
 @media (max-width: 600px)
   .container
     max-width: 470px
-  .menu
-    width: 300px
+  // .menu
+  //   width: 300px
   .aboutme
     &-wrapper
       display: flex

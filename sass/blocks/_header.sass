@@ -6,10 +6,19 @@
     flex-direction: row
     align-items: center
     justify-content: space-between
+  &__menu-btn
+    display: none
 .logo
   &__image
     width: 80px
 .menu
+  &--visible
+    overflow-y: auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
   &__list
     display: flex
     flex-direction: row
