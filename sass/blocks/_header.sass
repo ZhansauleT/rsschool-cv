@@ -1,0 +1,46 @@
+.header
+  background-color: #fff
+  padding: 20px 0
+  &-wrapper
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+  &__menu-btn
+    display: none
+.logo
+  &__image
+    width: 80px
+.menu
+  &--visible
+    overflow-y: auto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+  &__list
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    list-style: none
+    text-decoration: none
+  &__item
+    font-weight: 700
+    a
+      text-decoration: none
+      color: #000
+  &__item:not(:last-child)
+    margin-right: 20px
+  &__item:not(:first-child):hover
+    a
+      color: #0096FF
+  &__item:first-child
+    border: 3px solid #0096FF
+    border-radius: 10px
+    padding: 10px
+  &__item:first-child:hover
+    background-color: #0096FF
+    a
+      color: #fff
